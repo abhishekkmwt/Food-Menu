@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0C0E10;
+    color: white;
+    scroll-behavior: smooth;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    left: 0;
+    top:0;
+    bottom: 0;
+    width:22%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.image img{
+    width:90%;
+}
+.aside-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0px 5px 20px 5px;
+
+}
+.restaurant-menu{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.slogan{
+    font-size: 15px;
+    color:red;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.list{
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.aside-center{
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.aside-bottom{
+    width: 100%;
+    padding: 0px 60px;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left:23%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    height: 55px;
+    width:77%;
+    background: #191D20;
+    z-index: 1000;
+}
+
+nav .logo img{
+    
+    height: 40px;
+    width: 40px;
+    background-color: #191D20;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 0px 5px;
+    background-color: #272A30;
+}
+
+.search-bar input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: #878787;
+    background-color: #272A30;
+    padding: 0px 10px;
+    outline: none;
+    
+}
+
+.fa-magnifying-glass{
+    background-color: #272A30;
+}
+.signup{
+    width: 10%;
+    padding: 0px 5px;
+    background-color: #191D20;
+}
+
+.login{
+    width: 10%;
+    padding: 0px 5px;
+    background-color: #191D20;
+}
+
+.logo{
+    padding: 0px 5px;
+    background-color: #191D20;
+}
+
+.signup button, .login button{
+    height: 30px;
+    background-color: #FF2424;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width:77%;
+    position: absolute;
+    left:23%;
+    top:60px;
+    padding:25px;
+    height: 100vh;
+}
+
+
+.banner img{
+    width: 100%;
+    height: 300px;
+}
+
+.menu-name{
+    padding: 15px 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap:25px;
+    column-gap: 10px;
+    margin-bottom: 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272A30;
+    height: 330px;
+    border-radius:10px;
+    justify-content: center;
+}
+.item-image{
+    padding: 10px;
+    background-color: #272A30;
+    border-radius:10px;
+}
+.item-image img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.details{
+    padding: 10px 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272A30;
+    border-radius:10px;
+}
+.left-details .menu-item-name, .right-details .fa-plus{
+    font-size: 20px;
+}
+.left-details .price{
+    font-size: 17px;
+}
+
+.left-details p{
+    background-color: #272A30;
+
+}
+.right-details{
+    background-color:#272a3006;
+}
+.right-details .fa-plus{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+}
